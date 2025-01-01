@@ -16,7 +16,7 @@
   width: 6.3vh;
   height: 4.3vh;
   opacity: 0.5;
-  /* cursor: none; */
+  cursor: url("../../assets/cursor/cursor.svg") 0 0, auto;
   background-color: rgba(0, 0, 0, 0);
   border-left: 3px solid rgba(0, 0, 0, 0);
   justify-content: flex-start;
@@ -72,7 +72,7 @@
   width: 6vh;
   height: 4vh;
   opacity: 0.5;
-  /* cursor: none; */
+  cursor: url("../../assets/cursor/cursor.svg") 0 0, auto;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("../../assets/sideMenu/career.png");
   background-position: 2vh;
@@ -102,7 +102,7 @@
   width: 6vh;
   height: 3.5vh;
   opacity: 0.5;
-  /* cursor: none; */
+  cursor: url("../../assets/cursor/cursor.svg") 0 0, auto;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("../../assets/sideMenu/watch.svg");
   background-position: 2vh;
@@ -140,7 +140,7 @@
   width: 6vh;
   height: 3.2vh;
   opacity: 0.5;
-  /* cursor: none; */
+  cursor: url("../../assets/cursor/cursor.svg") 0 0, auto;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("../../assets/sideMenu/help.svg");
   background-position: 3vh;
