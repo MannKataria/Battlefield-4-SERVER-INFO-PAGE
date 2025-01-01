@@ -1,0 +1,21 @@
+.serverContent {
+  width: 127vh;
+  height: 82.4vh;
+  border-bottom: 1px rgba(255, 255, 255, 0.1);
+  margin-top: 8vh;
+  position: relative;
+  overflow: auto;
+}
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 1px;
+}

@@ -1,0 +1,51 @@
+.serverStats {
+  margin-bottom: 2.5vh;
+  display: flex;
+}
+.serverStat {
+  margin-right: 12vh;
+}
+.serverStatHead {
+  color: #fff;
+  letter-spacing: 0.1vh;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5vh;
+  font-weight: 600;
+  line-height: 1.8vh;
+}
+.serverStatVal {
+  display: flex;
+}
+.serverStatInt {
+  color: #fff;
+  letter-spacing: 0.1vh;
+  text-transform: none;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 3vh;
+}
+.serverStatLine,
+.serverPing {
+  color: #fff;
+  letter-spacing: 0.1vh;
+  text-transform: none;
+  margin-left: 0.1vh;
+  margin-right: 0.1vh;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 3vh;
+}
+.serverHz {
+  color: #fff;
+  letter-spacing: 0.1vh;
+  text-transform: none;
+  margin-left: 0.5vh;
+  margin-right: 0.1vh;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 3vh;
+}

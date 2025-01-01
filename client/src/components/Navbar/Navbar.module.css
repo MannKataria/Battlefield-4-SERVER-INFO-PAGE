@@ -1,0 +1,64 @@
+.navContainer {
+  margin-bottom: 2vh;
+}
+.currentPath,
+.multiplayer,
+.serverBrowser {
+  color: #fff;
+  letter-spacing: 0.1vh;
+  text-transform: uppercase;
+  margin-bottom: 0.3vh;
+  margin-right: 1.5vh;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5vh;
+  font-weight: 600;
+  line-height: 2vh;
+  text-decoration: none;
+  transition: opacity 0.1s;
+  display: flex;
+}
+.currentPath:hover,
+.multiplayer:hover,
+.serverBrowser:hover {
+  font-weight: 700;
+}
+.bar {
+  margin-right: 1.5vh;
+  font-size: 2vh;
+  font-weight: 500;
+}
+.backWrapper {
+  opacity: 0.5;
+  margin-right: 2.5vh;
+  transition: opacity 0.1s;
+  max-width: 100%;
+  display: inline-block;
+}
+.backWrapper:hover {
+  opacity: 1;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.currentTab {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 4vh;
+  font-weight: 600;
+  line-height: 4vh;
+}
+.nextOverlay {
+  z-index: 3;
+  width: 127vh;
+  height: 4vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 51%, #014a5a);
+  display: block;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 12vh;
+  right: 0%;
+}

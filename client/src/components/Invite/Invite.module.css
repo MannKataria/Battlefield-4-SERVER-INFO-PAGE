@@ -1,0 +1,221 @@
+.invite {
+  z-index: 9995;
+  width: 27vh;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 3.5vh;
+  padding-left: 1.5vh;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  transform: translate(19vh);
+}
+.inviteLine {
+  height: 1px;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Squad */
+.inviteSquad {
+  margin-top: 1.2vh;
+  margin-bottom: 1.5vh;
+}
+.inviteSquadWrap {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1vh;
+  display: flex;
+}
+.inviteSquadIcon {
+  margin-right: 0.5vh;
+}
+.inviteSquadHead {
+  opacity: 0;
+  color: #fff;
+  letter-spacing: 0.08vh;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5vh;
+  font-weight: 600;
+  line-height: 1.8vh;
+}
+.inviteJoinWrap {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.inviteJoinIcon {
+  height: 4.5vh;
+  margin-right: 1vh;
+}
+.joinIconBlack {
+  z-index: 2;
+  margin-left: -1px;
+  display: none;
+  position: absolute;
+}
+.joinIconDefault {
+  z-index: 1;
+  position: relative;
+}
+.inviteJoinHead {
+  opacity: 0;
+  color: #fff;
+  letter-spacing: 0.08vh;
+  text-transform: capitalize;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2vh;
+  font-weight: 600;
+  line-height: 1.6vh;
+}
+
+/* Online */
+.inviteOnline {
+  margin-top: 1.2vh;
+  margin-bottom: 1.5vh;
+}
+.inviteOnlineWrap {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1vh;
+  display: flex;
+}
+.inviteOnlineIcon {
+  margin-right: 0.5vh;
+}
+.inviteOnlineHead {
+  opacity: 0;
+  color: #fff;
+  letter-spacing: 0.08vh;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5vh;
+  font-weight: 600;
+  line-height: 1.8vh;
+}
+.inviteOnlineFriend {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.inviteFriendPicWrap {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.inviteOnlineBar {
+  width: 2px;
+  height: 4.6vh;
+  background-color: #23c13a;
+  margin-right: 0.3vh;
+}
+.inviteFriendPic {
+  height: 4.6vh;
+}
+.inviteFriendInfo {
+  height: 4.6vh;
+  opacity: 0;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1vh;
+  display: flex;
+}
+.inviteFriendName {
+  color: #fff;
+  letter-spacing: 0.08vh;
+  text-transform: capitalize;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2vh;
+  font-weight: 600;
+  line-height: 1.6vh;
+}
+.inviteFriendStatus {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.08vh;
+  text-transform: capitalize;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2vh;
+  font-weight: 600;
+  line-height: 1.6vh;
+}
+
+/* Offline */
+.inviteOffline {
+  margin-top: 1.2vh;
+  margin-bottom: 1.5vh;
+}
+.inviteOfflineWrap {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1vh;
+  display: flex;
+}
+.inviteOfflineIcon {
+  margin-right: 0.5vh;
+}
+.inviteOfflineHead {
+  opacity: 0;
+  color: #fff;
+  letter-spacing: 0.08vh;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5vh;
+  font-weight: 600;
+  line-height: 1.8vh;
+}
+.inviteOfflineFriend {
+  opacity: 0.4;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.inviteOfflineBar {
+  width: 2px;
+  height: 4.6vh;
+  background-color: #fff;
+  margin-right: 0.3vh;
+}
+
+/* Hover */
+.invite:hover {
+  background-color: rgba(16, 16, 16, 0.8);
+  transform: translate3d(0vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: ease-in-out 0.25s;
+}
+.invite:hover .inviteLine,
+.invite:hover .inviteSquadHead,
+.invite:hover .inviteJoinHead,
+.invite:hover .inviteOnlineHead,
+.invite:hover .inviteFriendInfo,
+.invite:hover .inviteOfflineHead,
+.inviteOfflineFriend:hover {
+  opacity: 1;
+}
+.inviteOnlineFriend:hover .inviteFriendInfo,
+.inviteOfflineFriend:hover .inviteFriendInfo,
+.inviteJoinWrap:hover {
+  background-color: rgb(255, 255, 255);
+}
+.inviteOnlineFriend:hover .inviteFriendName,
+.inviteOfflineFriend:hover .inviteFriendName,
+.inviteJoinWrap:hover .inviteJoinHead {
+  color: rgb(16, 16, 16);
+}
+.inviteOnlineFriend:hover .inviteFriendStatus,
+.inviteOfflineFriend:hover .inviteFriendStatus {
+  color: rgba(16, 16, 16, 0.6);
+}
+.inviteJoinWrap:hover .joinIconBlack {
+  display: block;
+}
