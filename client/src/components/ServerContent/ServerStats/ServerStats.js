@@ -3,9 +3,10 @@ import styles from "./ServerStats.module.css";
 
 const ServerStats = () => {
   const [serverStats, setServerStats] = useState([]);
+  const baseURL = "https://battlefield-4-backend.vercel.app";
 
   useEffect(() => {
-    fetch("https://battlefield-4-backend.vercel.app/server/stats")
+    fetch(`${baseURL}/server/stats`)
       .then((response) => response.json())
       .then((data) => setServerStats(data))
       .catch((error) => console.log(error));

@@ -5,9 +5,10 @@ const ServerSettings = () => {
   const [settings, setSettings] = useState([]);
   const [advanced, setAdvanced] = useState([]);
   const [rules, setRules] = useState([]);
+  const baseURL = "https://battlefield-4-backend.vercel.app";
 
   useEffect(() => {
-    fetch("https://battlefield-4-backend.vercel.app/server/settings")
+    fetch(`${baseURL}/server/settings`)
       .then((response) => response.json())
       .then((data) => {
         setSettings(data.settings);
