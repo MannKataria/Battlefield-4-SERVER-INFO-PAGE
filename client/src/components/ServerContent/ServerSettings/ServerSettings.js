@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import styles from "./ServerSettings.module.css";
 
 const ServerSettings = () => {
-  //   const [serverSettings, setServerSettings] = useState([]);
   const [settings, setSettings] = useState([]);
   const [advanced, setAdvanced] = useState([]);
   const [rules, setRules] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/server/settings")
+    fetch("https://battlefield-4-backend.vercel.app/server/settings")
       .then((response) => response.json())
       .then((data) => {
         setSettings(data.settings);

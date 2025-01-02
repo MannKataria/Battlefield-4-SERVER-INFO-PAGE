@@ -5,7 +5,7 @@ const ServerStats = () => {
   const [serverStats, setServerStats] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/server/stats")
+    fetch("https://battlefield-4-backend.vercel.app/server/stats")
       .then((response) => response.json())
       .then((data) => setServerStats(data))
       .catch((error) => console.log(error));
