@@ -4,7 +4,7 @@ const router = require("./router");
 
 const app = express();
 let corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["https://battlefield-4-server-info.vercel.app/"],
 };
 app.use(cors(corsOptions));
 
