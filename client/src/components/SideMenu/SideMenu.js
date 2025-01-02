@@ -22,7 +22,6 @@ const SideMenu = () => {
           </div>
         </a>
         <a
-          //   href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-bf4"
           href="/"
           className={`${styles.sideMenuGame} ${styles.bf4} ${styles.current} ${styles.wBlock}`}
         >

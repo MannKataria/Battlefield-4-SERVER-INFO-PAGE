@@ -18,9 +18,11 @@
   display: flex;
 }
 .currentPath:hover,
+.backWrapper:hover,
 .multiplayer:hover,
 .serverBrowser:hover {
   font-weight: 700;
+  cursor: url("../../assets/cursor/cursor.svg") 0 0, auto;
 }
 .bar {
   margin-right: 1.5vh;
