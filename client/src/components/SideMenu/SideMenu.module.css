@@ -11,6 +11,10 @@
   display: flex;
   flex-direction: column;
 }
+.wBlock {
+  max-width: 100%;
+  display: inline-block;
+}
 /* Games */
 .sideMenuGame {
   width: 6.3vh;
@@ -25,8 +29,6 @@
   padding: 0;
   transition: opacity 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: flex;
-  max-width: 100%;
-  display: inline-block;
 }
 .sideMenuGame:hover {
   opacity: 1;
@@ -86,8 +88,6 @@
   text-decoration: none;
   transition: opacity 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: flex;
-  max-width: 100%;
-  display: inline-block;
 }
 .sideMenuCareer:hover {
   opacity: 1;
@@ -117,8 +117,6 @@
   text-decoration: none;
   transition: opacity 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: flex;
-  max-width: 100%;
-  display: inline-block;
 }
 .sideMenuNews {
   background-image: url("../../assets/sideMenu/news.svg");
@@ -154,8 +152,6 @@
   text-decoration: none;
   transition: opacity 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   display: flex;
-  width: 100%;
-  display: inline-block;
 }
 .sideMenuHelp:hover {
   opacity: 1;
@@ -218,10 +214,6 @@
   bottom: 0%;
   left: 0%;
   right: auto;
-}
-.sideMenuBar .sideMenuBar--bfv {
-  z-index: 4;
-  position: fixed;
 }
 .sideMenuPopup {
   z-index: 5;

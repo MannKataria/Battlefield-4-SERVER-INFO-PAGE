@@ -7,7 +7,7 @@ const SideMenu = () => {
       <div className={styles.sideMenu}>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-bfv"
-          className={`${styles.sideMenuGame} ${styles.bfv}`}
+          className={`${styles.sideMenuGame} ${styles.bfv} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>Battlefield v</div>
@@ -15,7 +15,7 @@ const SideMenu = () => {
         </a>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-bf1"
-          className={`${styles.sideMenuGame} ${styles.bf1}`}
+          className={`${styles.sideMenuGame} ${styles.bf1} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>Battlefield 1</div>
@@ -24,7 +24,7 @@ const SideMenu = () => {
         <a
           //   href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-bf4"
           href="/"
-          className={`${styles.sideMenuGame} ${styles.bf4} ${styles.current}`}
+          className={`${styles.sideMenuGame} ${styles.bf4} ${styles.current} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>Battlefield 4</div>
@@ -32,7 +32,7 @@ const SideMenu = () => {
         </a>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-bfh"
-          className={`${styles.sideMenuGame} ${styles.bfh}`}
+          className={`${styles.sideMenuGame} ${styles.bfh} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>Battlefield Hardline</div>
@@ -40,7 +40,7 @@ const SideMenu = () => {
         </a>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-career"
-          className={styles.sideMenuCareer}
+          className={`${styles.sideMenuCareer} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>career</div>
@@ -48,7 +48,7 @@ const SideMenu = () => {
         </a>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-watch"
-          className={styles.sideMenuWatch}
+          className={`${styles.sideMenuWatch} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>watch</div>
@@ -56,7 +56,7 @@ const SideMenu = () => {
         </a>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-news"
-          className={styles.sideMenuNews}
+          className={`${styles.sideMenuNews} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>news</div>
@@ -64,7 +64,7 @@ const SideMenu = () => {
         </a>
         <a
           href="https://battlefield-4-webflow-rebuild.webflow.io/game?tab=tab-help"
-          className={styles.sideMenuHelp}
+          className={`${styles.sideMenuHelp} ${styles.wBlock}`}
         >
           <div className={styles.sideMenuPopup}>
             <div className={styles.sideMenuText}>help</div>
